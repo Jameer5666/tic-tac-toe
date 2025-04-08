@@ -84,7 +84,7 @@ const checkWinner=()=>{
     setGame(false)
   }
   else if(click>=8){
-    setResult('😂Game Drawn🔁')
+    setResult('Game Drawn🔁')
     document.getElementById('cell1').className='matchdrawn'
     document.getElementById('cell2').className='matchdrawn'
     document.getElementById('cell3').className='matchdrawn'

@@ -6,7 +6,7 @@
     width: 100vw;
     flex-direction: column;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 25px;
     background: linear-gradient(190deg, rgb(4, 26, 4), rgb(21, 22, 22) ,rgb(42, 6, 66));
 
 }
@@ -82,14 +82,15 @@
     font-size: 40px;
     color: white;
     font-weight: 700;
+    text-align: center;
     letter-spacing: 3px;
   }
 .btn{
-    height: 2.4rem;
+    height: 2.5rem;
     width: 8rem;
     border-radius: .3rem;
     cursor: pointer;
-
+    font-size: large;
     outline: none;
     border: .8px solid blue;
 }
